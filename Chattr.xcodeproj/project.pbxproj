@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A3EDDC4E2274BE41004E507B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDC4D2274BE41004E507B /* AppDelegate.swift */; };
-		A3EDDC502274BE41004E507B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDC4F2274BE41004E507B /* ViewController.swift */; };
+		A3EDDC502274BE41004E507B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDC4F2274BE41004E507B /* LoginVC.swift */; };
 		A3EDDC532274BE41004E507B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EDDC512274BE41004E507B /* Main.storyboard */; };
 		A3EDDC552274BE43004E507B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EDDC542274BE43004E507B /* Assets.xcassets */; };
 		A3EDDC582274BE43004E507B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EDDC562274BE43004E507B /* LaunchScreen.storyboard */; };
+		A3EDDC6022781884004E507B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDDC5F22781884004E507B /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3EDDC4A2274BE41004E507B /* Chattr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EDDC4D2274BE41004E507B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3EDDC4F2274BE41004E507B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EDDC4F2274BE41004E507B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A3EDDC522274BE41004E507B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3EDDC542274BE43004E507B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EDDC572274BE43004E507B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3EDDC592274BE43004E507B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EDDC5F22781884004E507B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				A3EDDC4D2274BE41004E507B /* AppDelegate.swift */,
-				A3EDDC4F2274BE41004E507B /* ViewController.swift */,
+				A3EDDC4F2274BE41004E507B /* LoginVC.swift */,
 				A3EDDC512274BE41004E507B /* Main.storyboard */,
 				A3EDDC542274BE43004E507B /* Assets.xcassets */,
 				A3EDDC562274BE43004E507B /* LaunchScreen.storyboard */,
 				A3EDDC592274BE43004E507B /* Info.plist */,
+				A3EDDC5F22781884004E507B /* SignUpVC.swift */,
 			);
 			path = Chattr;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EDDC502274BE41004E507B /* ViewController.swift in Sources */,
+				A3EDDC502274BE41004E507B /* LoginVC.swift in Sources */,
+				A3EDDC6022781884004E507B /* SignUpVC.swift in Sources */,
 				A3EDDC4E2274BE41004E507B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
